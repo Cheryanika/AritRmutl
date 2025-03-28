@@ -37,6 +37,7 @@ esac
 ${WAZUH_PATH}/${WPYTHON_BIN} ${PYTHON_SCRIPT} "$@"
 -----------------------------------------------------------------------------------
 
+sudo apt install python3
 nano /var/ossec/integrations/custom-telegram.py
 
 -----------------------------------------------------------------------------------
